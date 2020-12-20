@@ -4,8 +4,10 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  color: #2F281E;
+  color: #544837;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .container {
@@ -16,6 +18,18 @@ body {
 
 a {
   text-decoration: none;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  cursor: pointer;
+}
+
+.title {
+  color: #2F281E;
 }
 
 .header__inner {
@@ -40,6 +54,7 @@ a {
 .menu__list-link {
   font-size: 14px;
   line-height: 28px;
+  font-weight: 400;
   color: #2F281E;
 }
 
@@ -63,4 +78,59 @@ a {
   border-color: transparent;
   color: #ffffff;
   background-color: #FF9900;
+}
+
+.top__inner {
+  padding: 133px 0 80px;
+  background-image: url(../images/top-bg.svg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+}
+
+.top__title {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 54px;
+  margin-bottom: 30px;
+  max-width: 518px;
+}
+
+.top__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 45px;
+  max-width: 458px;
+}
+
+.top_btn {
+  display: inline-block;
+  font-weight: 700;
+  color: #FFFFFF;
+  background-color: #FF9900;
+  border-radius: 4px;
+  padding: 15px 41px 14px;
+  margin-right: 30px;
+  border: none;
+}
+
+.top__link {
+  display: inline-block;
+  font-weight: 600;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #FF9900;
+  padding-left: 25px;
+  position: relative;
+}
+
+.top__link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 17px;
+  height: 19px;
+  background-image: url(../images/play-icon.svg);
+
 }
