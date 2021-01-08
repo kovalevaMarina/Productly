@@ -573,6 +573,39 @@ button {
   transition: 0.3s ease;
 }
 
+.menu__btn {
+  width: 40px;
+  height: 30px;
+  display: none;
+}
+
+.menu__btn span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #173A56;
+  position: absolute;
+  left: 0;
+  top: 14px;
+}
+
+.menu__btn::before,
+.menu__btn::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 2px;
+  background-color: #173A56;
+}
+
+.menu__btn::before {
+  top: 0;
+}
+
+.menu__btn::after {
+  bottom: 0;
+}
+
 
 
 
